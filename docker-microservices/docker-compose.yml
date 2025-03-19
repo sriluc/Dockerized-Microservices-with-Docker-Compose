@@ -1,0 +1,10 @@
+version: '3'
+services:
+  service1:
+    build: ./app/service1
+    ports:
+      - "5000:80"
+  service2:
+    build: ./app/service2
+    ports:
+      - "5001:3000"
